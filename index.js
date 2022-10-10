@@ -139,4 +139,5 @@ function askAgain(){
     )
 }
 
-askAgain()
+//askAgain();
+addManager();
