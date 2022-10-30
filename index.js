@@ -10,7 +10,6 @@ const Manager = require('./lib/Manager');
 //const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern'); 
 const Engineer = require('./lib/Engineer');
-const { listenerAdded } = require('emittery');
 
 // array of teams
 const teamArr = [];
