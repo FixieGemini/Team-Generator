@@ -104,6 +104,13 @@ const addEngineer = () => {
     })
 }
 
+//writes the html file to the dist folder
+function writeFile(answers) {
+    fs.writeFile('./dist/index.html', answers, (err) => {
+        err ? console.error(err) : console.log('***Your webpage has been generated!***')
+    });
+};
+
 function askAgain(){
     inquirer.prompt({
         message:"do you want to add another employee?",
@@ -133,7 +140,8 @@ function askAgain(){
 
     
                 )
-            }else{console.log(teamArr)}
+           //}else{console.log(teamArr)}
+            }else{writeFile(generateHTML(teamArr))};
         }
     )
 }

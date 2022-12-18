@@ -1,0 +1,19 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+body {
+    background-color:  rgba(76, 61, 161, 0.9);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+
+.card, .card-header, .card-body {
+    background-color: antiquewhite;
+}
+.list-group-item {
+    box-shadow: -3px 6px 9px;
+    background-color: antiquewhite;
+}
